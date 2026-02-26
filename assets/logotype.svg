@@ -1,0 +1,7 @@
+<svg width="320" height="64" viewBox="0 0 320 64" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Animal Vitality">
+  <rect width="320" height="64" rx="12" fill="#FFF9EF"/>
+  <path d="M29 44C36.1797 44 42 38.1797 42 31C42 23.8203 36.1797 18 29 18C21.8203 18 16 23.8203 16 31C16 38.1797 21.8203 44 29 44Z" fill="#2F8F46"/>
+  <path d="M28.8 27.3C30.8 24.4 34.9 23.7 37.8 25.7C40.7 27.7 41.4 31.8 39.4 34.7C37.2 38 32.8 39.1 29.2 37.3" stroke="#F28A2E" stroke-width="2.8" stroke-linecap="round"/>
+  <text x="56" y="30" fill="#2F8F46" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700">Animal</text>
+  <text x="56" y="52" fill="#F28A2E" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700">Vitality</text>
+</svg>
