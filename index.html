@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Animal Vitality | Loja Pet</title>
+    <meta name="description" content="Loja de produtos pet com foco em bem-estar e vitalidade animal." />
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="topbar" id="inicio">
+      <div class="topbar-inner">
+        <img class="brand-icon" src="assets/favicon.svg" alt="Logo Animal Vitality" />
+
+        <a class="brand" href="#inicio" aria-label="Animal Vitality - início">
+          <img src="assets/logotype.svg" alt="Animal Vitality" />
+        </a>
+
+        <div class="topbar-right">
+          <nav class="nav-actions" aria-label="Navegação principal">
+            <a href="#inicio" class="btn btn-ghost">Início</a>
+            <a href="#produtos" class="btn btn-ghost">Comprar agora</a>
+            <a href="#rodape" class="btn btn-primary">Sobre</a>
+          </nav>
+        </div>
+
+        <details class="mobile-menu">
+          <summary aria-label="Abrir menu">☰</summary>
+          <nav class="mobile-nav" aria-label="Menu mobile">
+            <a href="#inicio" class="btn btn-ghost">Início</a>
+            <a href="#produtos" class="btn btn-ghost">Comprar agora</a>
+            <a href="#rodape" class="btn btn-primary">Sobre</a>
+          </nav>
+        </details>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" aria-label="Apresentação da loja">
+        <div class="hero-copy">
+          <h1>Cuidado diário para uma vida pet mais saudável</h1>
+          <p>
+            Assim como a nossa saúde precisa de rotina e prevenção, a saúde dos pets também depende
+            de atenção diária com nutrição, higiene, conforto e suporte adequado.
+          </p>
+          <a href="#produtos" class="btn btn-primary">Ver produtos</a>
+        </div>
+      </section>
+
+      <section id="produtos" class="products-section" aria-label="Produtos">
+        <div class="section-head">
+          <h2>Produtos em destaque</h2>
+          <p>Escolha os melhores itens para o bem-estar do seu pet.</p>
+        </div>
+        <div id="products-grid" class="products-grid"></div>
+      </section>
+    </main>
+
+    <footer id="rodape" class="footer">
+      <p>© <span id="current-year"></span> Animal Vitality. Todos os direitos reservados.</p>
+      <p>100% segura que de mostra os melhores preços das lojas online.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
